@@ -243,7 +243,12 @@ body{
     height: 65px;
 }
 }
-
+/*Extra large devices*/
+@media (min-width: 1250px){
+	img{
+		width:20%;
+	}
+}
 /*extra small device style */
 @media (max-width: 575px) {
     .timeline::before {
