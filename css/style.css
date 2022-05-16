@@ -120,7 +120,7 @@ body {
 
   /* Background image */
   body{
-    background-image: url(im.jpg);
+    background-image: url(../images/im.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
