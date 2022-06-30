@@ -4,7 +4,13 @@
 } */
 
 /* Navbar style */
-
+@viewport {
+  width: device-width;
+  zoom: 1.1;
+  min-zoom: 0.4;
+  max-zoom: 2;
+  user-zoom: fixed;
+  }
 body {
     font-family: sans-serif;
   }
@@ -207,10 +213,14 @@ from {
   flex-direction: column;
   top: 184px;
   left: 90%;
+  /* border: 1px solid yellow; */
+}
+.btn fs-3 i{
+  border: 1px solid yellow;
 }
 #particles-js{
 width: 80%;
-height: 78%;
+height: 79%;
 /*background: #000;*/
 }
 /* __________________________________ABOUT_____________________________________ */
