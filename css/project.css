@@ -43,6 +43,10 @@
 .cli{
   position: relative;
   top: 8px;
-}              
+}     
+.card-img-top{
+  height: 45%;
+  width: 17%;
+}         
 
-            
+  
